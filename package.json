@@ -1,0 +1,15 @@
+{
+  "name": "levinson-layout-renderer",
+  "version": "1.0.0",
+  "description": "takes layout comments in a specific format and turns them into an interactive webapp",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Dan Wenger",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}

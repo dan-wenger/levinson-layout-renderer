@@ -1,0 +1,1 @@
+personal practice project to visualize the configuration of my custom built QMK keyboard (Levinson). It currently only works with my specific style of comments, everything else would break the code. 
