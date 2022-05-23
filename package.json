@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "deploy": "gh-pages -d dist"//"push-dir --dir=dist --branch=gh-pages --verbose"
+    "build": "parcel build --public-url /",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Dan Wenger",
   "license": "ISC",
