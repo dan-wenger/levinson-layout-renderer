@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "takes layout comments in a specific format and turns them into an interactive webapp",
   "source": "src/index.html",
+  "context": "browser",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
     "build": "parcel build --no-optimize --no-cache --public-url ./",

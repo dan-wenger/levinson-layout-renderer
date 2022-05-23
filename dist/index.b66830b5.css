@@ -34,11 +34,12 @@ body, button {
   border-radius: 7px;
   grid-template-columns: repeat(6, 10em);
   grid-auto-rows: 9em;
-  place-content: center;
+  align-content: center;
+  justify-content: center;
   margin: 1em;
   padding: 1em;
   display: grid;
-  box-shadow: 0 2px 1px #00000017, 0 4px 2px #00000017, 0 8px 4px #00000017, 0 16px 8px #00000017, 0 32px 16px #00000017;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, .09), 0 4px 2px rgba(0, 0, 0, .09), 0 8px 4px rgba(0, 0, 0, .09), 0 16px 8px rgba(0, 0, 0, .09), 0 32px 16px rgba(0, 0, 0, .09);
 }
 
 .key {
@@ -186,4 +187,4 @@ button:hover {
   background-color: var(--gray);
 }
 
-/*# sourceMappingURL=index.2184df61.css.map */
+/*# sourceMappingURL=index.b66830b5.css.map */
