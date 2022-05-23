@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url ./",
+    "build": "parcel build --no-optimize --no-cache --public-url ./",
     "deploy": "push-dir --dir=dist --branch=gh-pages --verbose"
   },
   "author": "Dan Wenger",
