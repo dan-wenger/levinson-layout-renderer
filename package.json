@@ -2,18 +2,20 @@
   "name": "levinson-layout-renderer",
   "version": "1.0.0",
   "description": "takes layout comments in a specific format and turns them into an interactive webapp",
-  "source": "src/index.html",
+  "source": "index.html",
   "context": "browser",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
     "build": "parcel build --public-url ./ --no-cache",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --verbose",
+    "buildtwo": "esbuild main.js --bundle --outfile=out.js",
+    "deploy": "push-dir --dir=dist --branch=gh-pages",
     "deploytwo": "gh-pages -d dist"
   },
   "author": "Dan Wenger",
   "license": "ISC",
   "devDependencies": {
+    "esbuild": "^0.14.39",
     "gh-pages": "^4.0.0",
     "parcel": "^2.5.0",
     "push-dir": "^0.4.1"
