@@ -7,8 +7,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --no-optimize --no-cache --public-url /levinson-layout-renderer/",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --verbose"
+    "build": "parcel build",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --verbose",
+    "deploytwo": "gh-pages -d dist"
   },
   "author": "Dan Wenger",
   "license": "ISC",
