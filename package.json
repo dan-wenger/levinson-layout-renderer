@@ -5,11 +5,13 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --verbose"
   },
   "author": "Dan Wenger",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "push-dir": "^0.4.1"
   }
 }
