@@ -1,10 +1,10 @@
 :root {
-  --bg: hsl(3, 57%, 48%);
-  --off-white: rgb(235, 235, 235);
-  --gray: hsl(0, 1%, 81%);
-  --gray-2: hsl(30, 1%, 67%);
-  --black: rgb(70, 70, 70);
-  --accent: rgb(0, 88, 204);
+  --bg: #c03c35;
+  --off-white: #ebebeb;
+  --gray: #cfcece;
+  --gray-2: #acabaa;
+  --black: #464646;
+  --accent: #0058cc;
 }
 
 body {
