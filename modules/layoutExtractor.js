@@ -2,8 +2,8 @@ export const Extract = {
   layoutData(src) {
     const srcLayers = src.split(/(?<=')$/m);
     let extracted = {};
-
-    for (i in srcLayers) {
+    
+    for (let i in srcLayers) {
       // iterate over Layers
       let name = extractLayerName(srcLayers[i]);
       let rows = extractRows(srcLayers[i]);

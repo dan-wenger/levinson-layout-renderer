@@ -7,10 +7,14 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
+    "dev": "vite",
+    "buildvite": "vite build",
+    "preview": "vite preview",
     "build": "parcel build --public-url ./ --no-cache",
     "buildtwo": "esbuild main.js --bundle --outfile=out.js",
     "deploy": "push-dir --dir=dist --branch=gh-pages",
-    "deploytwo": "gh-pages -d dist"
+    "deploytwo": "gh-pages -d dist",
+    "deployvite": "deploy.sh"
   },
   "author": "Dan Wenger",
   "license": "ISC",
@@ -18,6 +22,7 @@
     "esbuild": "^0.14.39",
     "gh-pages": "^4.0.0",
     "parcel": "^2.5.0",
-    "push-dir": "^0.4.1"
+    "push-dir": "^0.4.1",
+    "vite": "^2.9.9"
   }
 }

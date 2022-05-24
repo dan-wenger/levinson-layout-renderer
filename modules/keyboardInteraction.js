@@ -41,9 +41,9 @@ const Keys = {
     });
   },
   forAll(layerName, callback) {
-    l = Store.data[layerName];
-    for (row in l) {
-      for (col in l[row]) {
+    const l = Store.data[layerName];
+    for (const row in l) {
+      for (const col in l[row]) {
         const id = `${row}x${col}`;
         callback(id, row, col);
       }
